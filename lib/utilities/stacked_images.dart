@@ -28,7 +28,7 @@ class StackedImageCard extends StatelessWidget {
           Positioned(
             left: 60,
             top: 90,
-            child: Image.asset(
+            child: Image.network(
               foregroundImagePath,
               width: 220,
               height: 200,
